@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>TuristInfo România</h1>
+        <h1>TuristWeather România</h1>
         <p>Descoperă obiectivele turistice pe care le recomandam din România</p>
       </header>
 
