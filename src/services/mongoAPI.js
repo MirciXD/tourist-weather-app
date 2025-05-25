@@ -1,5 +1,5 @@
 const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://your-backend-url.railway.app/api'
+  ? 'https://tourist-weather-app-production.up.railway.app/api'
   : 'http://localhost:5000/api';
 
 export const getObjectiveDescription = async (objectiveId) => {
