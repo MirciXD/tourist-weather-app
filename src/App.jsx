@@ -27,7 +27,7 @@ function App() {
       </main>
 
       <footer className="app-footer">
-        <p>© 2025 TuristInfo România</p>
+        <p>© 2025 TouristWeather România</p>
       </footer>
     </div>
   );
