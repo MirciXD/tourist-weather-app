@@ -46,7 +46,7 @@ const WeatherForecast = ({ coordinates, placeName }) => {
 
   return (
     <div className="weather-section">
-      <h3>Prognoza meteo pentru {placeName} - următoarele 7 zile</h3>
+      <h3>Prognoza meteo pentru {placeName} - următoarele 5 zile</h3>
       <div className="weather-grid">
         {weather.map((day, index) => (
           <div key={index} className="weather-day">
