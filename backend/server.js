@@ -15,6 +15,10 @@ app.use(express.json());
 
 const client = new MongoClient(process.env.MONGODB_CONNECTION_STRING);
 
+app.get('/health', (req, res) => {
+  res.json({ status: 'OK', message: 'Server is running' });
+});
+
 async function connectToMongoDB() {
   try {
     await client.connect();
